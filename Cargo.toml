@@ -1,10 +1,16 @@
 [package]
-name = "vlfeat"
+name = "vlfeat-sys"
 version = "0.1.0"
 authors = ["Peter Elmers <peter.elmers@yahoo.com>"]
-description = "FFI bindings to vlfeat sift library"
+description = "FFI bindings to vlfeat library"
 build = "build.rs"
 links = "vl"
+keywords = ["ffi", "image"]
+categories = ["external-ffi-bindings"]
+repository = "https://github.com/pelmers/vlfeat-sys"
+homepage = "http://www.vlfeat.org/"
+documentation = "https://docs.rs/vlfeat-sys"
+license = "MIT"
 
 [dependencies]
 libc = "~0.2"

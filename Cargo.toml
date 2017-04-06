@@ -1,0 +1,10 @@
+[package]
+name = "vlfeat"
+version = "0.1.0"
+authors = ["Peter Elmers <peter.elmers@yahoo.com>"]
+description = "FFI bindings to vlfeat sift library"
+build = "build.rs"
+links = "vl"
+
+[dependencies]
+libc = "~0.2"
